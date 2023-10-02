@@ -78,3 +78,27 @@
     .col-10 {width: 83.3%}
     .col-11{width: 91.63%}
     .col-12{width: 100%}
+    video {
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+      }
+      .video-wrapper {
+        border: 2px solid #000;
+        width: 2000px;
+        height: 500px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .header{
+        position: relative;
+        color: white;
+        text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+      }
