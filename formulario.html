@@ -4,6 +4,10 @@
     <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
     <title>Formulário</title>
     <script>
+        function gebi(id) {
+            return document.getElementById(id)
+        }
+
         function validar() {
             var campoNome = gebi("idNome")
             var valorNome = campoNome.value
@@ -40,7 +44,7 @@
         <fieldset align="center" style="width:270px">
             <legend>Dados:</legend>
             Nome: <input autofocus placeholder="Nome do Aluno" id="idNome" name="nome" type="text"><br>
-            Matrícula: <input placeholder="xxxxxxxxxx" id="idMatricula" name="idade" type="number"><br>
+            Matricula: <input placeholder="xxxxxxxxxx" id="idMatricula" name="idade" type="number"><br>
             <input type="button" value="Enviar" onclick="validar();">
         </fieldset>
     </form>

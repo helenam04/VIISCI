@@ -172,8 +172,12 @@ a{
     color: #ffffff;
 }
 .cards{
-    background-color: #260a36;
+    background-color: #1a012e;
     padding: 200px;
 }
-
+.cards .col-4{
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
  
