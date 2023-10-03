@@ -20,7 +20,7 @@
             var campoMatricula = gebi("Matricula")
             var valorMatricula = campoMatricula.value
 
-            if (valorMatricula.length === 0) {
+            if (valorMatricula.length === 10) {
                 campoMatricula.style.backgroundColor = "white"
                 return;
             } else {
@@ -38,9 +38,9 @@
 <body>
     <form id="meuForm" action="http://jkorpela.fi/cgi-bin/echo.cgi">
         <fieldset align="center" style="width:270px">
-            <legend>Informações:</legend>
-            Nome: <input autofocus placeholder="Fulano de Tal" id="idNome" name="nome" type="text"><br>
-            Idade: <input placeholder="45" id="idIdade" name="idade" type="number"><br>
+            <legend>Dados:</legend>
+            Nome: <input autofocus placeholder="Nome do Aluno" id="idNome" name="nome" type="text"><br>
+            Matrícula: <input placeholder="xxxxxxxxxx" id="idMatricula" name="idade" type="number"><br>
             <input type="button" value="Enviar" onclick="validar();">
         </fieldset>
     </form>
