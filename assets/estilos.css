@@ -88,8 +88,8 @@
       }
       .video-wrapper {
         border: 2px solid #000;
-        width: 2000px;
-        height: 500px;
+        width: auto;
+        height: 700px;
         position: relative;
         overflow: hidden;
         text-align: center;
@@ -101,4 +101,11 @@
         position: relative;
         color: white;
         text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+      }
+      button{ 
+        padding-left:100px;
+        padding-right:100px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        fill: none;
       }
