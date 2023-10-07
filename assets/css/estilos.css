@@ -184,16 +184,23 @@ a{
     justify-content: center; 
 }
 .cards .col-3{
+    margin-top: 20px;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 10px;
     padding-bottom: 200px;
     margin: 20px;
     box-shadow: inset;
+    opacity: 0.5;
 }
 .cards .col-3 .img-col{
     width: 400px;
 }
 bold{
     font-weight: bolder;
+}
+div.cards:hover{
+    opacity: 1.0;
+    size: 110%;
+    
 }
