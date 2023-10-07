@@ -204,3 +204,13 @@ div.cards:hover{
     size: 110%;
     
 }
+.img-patrocinios {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+.img-patrocinios :hover{
+    width: 220px;
+}
