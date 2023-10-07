@@ -204,13 +204,21 @@ div.cards:hover{
     size: 110%;
     
 }
-.img-patrocinios {
-    width: 200px;
-    display: flex;
+.patrocinadores{
     align-items: center;
     justify-content: center;
     position: relative; 
+   text-align: center;
 }
-.img-patrocinios :hover{
-    width: 220px;
+.img-patrocinios {
+    width: 200px;
+
+    align-items: center;
+    display: flex;
+    position: relative; 
 }
+
+.horarios-1{
+    display: none;
+}
+  
