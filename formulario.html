@@ -2,28 +2,43 @@
 <html>
 
 <head>
-<title>--Formulário Contato--</title>
-<meta charset="utf-8" />
-<script src="assets/java/myscript.js"></script>
-<link href="assets/css/estilosformulário.css" rel="stylesheet" media="all" />
+  <title>--Formulário Contato--</title>
+  <meta charset="utf-8" />
+  <script src="assets/java/myscript.js"></script>
+  <link href="assets/css/estilosformulário.css" rel="stylesheet" media="all" />
 </head>
 
 <body>
-<form name="meu_form">
+  <div id="nav">
+    <div class="container clearfix">
+        <ul id="menu">
+            <li class="active">
 
-  <h1>Entre em contato</h1>
+            </li>
+            <li><a href="Formulário"></a></li>
+            <li><a href="Jogos"></a></li>
+            <li><a href="Informações"></a></li>
+        </ul>
+        <ul class="right">
 
-  <input type="text" id="matriculaid" placeholder="Seu Nome Aqui" required="required" name="nome" />
-  <label for="nome">Nome</label>
+        </ul>
+    </div>
+</div>
+  <form name="meu_form">
+          <h1>Entre em contato</h1>
 
-  <input type="tel" id="matriculaid" placeholder="xxxxxxxxxx" required="required" name="Matricula" />
-  <label for="fone">Fone</label>
+          <input type="text" id="nomeid" placeholder="Seu Nome Aqui" required="required" name="nome" />
+          <label for="nome">Nome</label>
 
-  <input type="email" id="cpfid" placeholder="" name="" />
-  <label for="email">Email</label>
+          <input type="tel" id="matriculaid" placeholder="xxxxxxxxxx" required="required" name="Matricula" />
+          <label for="Matricula">Matricula</label>
+
+          <input type="cpf" id="cpfid" placeholder="xxxxxxxxx-xx" name="cpf" />
+          <label for="cpf"></label>
 
 
-  <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
-</form>
+          <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+  </form>
 </body>
+
 </html>

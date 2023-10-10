@@ -3,8 +3,112 @@ body {
     margin: 0;
 }
 
+#nav {
+    background-color: rgb(41, 0, 80);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#nav ul li {
+    list-style: none;
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    /*desgruda*/
+    font-size: 30px;
+}
+
+#nav ul#menu li {
+    float: left;
+    border-radius: 8px;
+}
+
+#nav ul.right li {
+    float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#nav ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav ul li a {
+    margin: 10px
+}
+
+.center {
+    text-align: center;
+
+}
+
+.col- {
+    float: left;
+}
+
+/*Grid com 12 colunas*/
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+}
+
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.col-5 {
+    width: 41.66%
+}
+
+.col-6 {
+    width: 50%
+}
+
+.col-7 {
+    width: 58.31%
+}
+
+.col-8 {
+    width: 66.66%
+}
+
+.col-9 {
+    width: 74.97%
+}
+
+.col-10 {
+    width: 83.3%
+}
+
+.col-11 {
+    width: 91.63%
+}
+
+.col-12 {
+    width: 100%
+}
+
 form {
-    font-family: Verdana,Tahoma,sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     font-size: 15px;
     background-color: #CC3300;
     max-width: 500px;
@@ -17,7 +121,8 @@ h1 {
     text-shadow: 5px 5px 5px black;
 }
 
-input, textarea {
+input,
+textarea {
     width: 200px;
     padding: 10px;
     color: black;
@@ -28,7 +133,10 @@ input, textarea {
     border: 1px solid;
 }
 
-input:hover, textarea:hover, input:focus, textarea:focus {
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
     border-color: #000066;
     box-shadow: 5px 0px 9px #FFFF00;
     background-color: #66FFFF;

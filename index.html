@@ -63,7 +63,7 @@
             </div>
             <div class="col-2"></div>
         </div>
-    </div>
+   
     <div class="patrocinadores" :hover>
         <h1>Patrocinadores</h1>
         <div class="col-4">
@@ -77,7 +77,7 @@
         </div>
     </div>
    <div class="programacao">
-     <button type="button" onclick="show()" id="btnID"><div class="segunda feira">Segunda-feira</button>
+     <button type="button" onclick="show()" id="btnID"><div class="segunda-feira">Segunda-feira</button>
         <div class="horarios-1" id="horarios">
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
                  Ipsa iste iure cum doloremque atque, architecto ipsum fuga, 
@@ -91,10 +91,44 @@
                     }
                 </script>
         </div>
-        
-     </div> 
-     
+        <button type="button" onclick="show2()" id="btnID"><div class="segunda-feira">Terça-feira</button>
+            <div class="horarios-1" id="horarios2">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Ipsa iste iure cum doloremque atque, architecto ipsum fuga, 
+                     culpa eum sex aut delectus ab quae nihil corporis quod voluptatem asperiores.</p>
+                     <script>
+                        function show2() {
+                           
+                            document.getElementById('horarios2')
+                                .style.display = "block";
+                               
+                        }
+                    </script>
+            </div>
+            <button type="button" onclick="show3()" id="btnID"><div class="segunda-feira">quarta-feira</button>
+                <div class="horarios-1" id="horarios3">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Ipsa iste iure cum doloremque atque, architecto ipsum fuga, 
+                         culpa eum sex aut delectus ab quae nihil corporis quod voluptatem asperiores.</p>
+                         <script>
+                            function show3() {
+                               
+                                document.getElementById('horarios3')
+                                    .style.display = "block";
+                                   
+                            }
+                        </script>
+                </div>
     </div>
-  <div class="timeline">
-
+    <div class="footer">
+        <div  class="col-2">
+            <div id="foot" class="informations">
+                <div class="container clearfix">
+                    <ul id="footer">
+                        <li><a href="#"><i class="fa fa-instagram"></i>@cafe_pedaçodeceu</a></li>
+                        <li><a href="#"><i class="fa fa-whatsapp"></i>+55(49)9900-001</a></li>  
+                    </ul>
+                </div>
+ </div>
+        </div>
 </body>
