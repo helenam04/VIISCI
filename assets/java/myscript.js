@@ -1,9 +1,13 @@
-function Enviar() {
+function enviarFormulario() {
+    // Obtém os valores dos campos do formulário
+    var nome = document.getElementById("nome").value;
+    var email = document.getElementById("email").value;
 
-    var nome = document.getElementById("nomeid");
+    // Exibe os dados no console
+    console.log("Nome: " + nome);
+    console.log("E-mail: " + email);
 
-    if (nome.value != "") {
-        alert('oi ' + nome.value + ' oi');
-    }
-
+    // Limpa os campos após o envio
+    document.getElementById("nome").value = "";
+    document.getElementById("email").value = "";
 }
